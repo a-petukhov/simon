@@ -18,8 +18,8 @@ function nextSequence() {
   gamePattern.push(randomChosenColour);
   animateButton(randomChosenColour);
   playSound(randomChosenColour);
-  $("h1").text("Level " + level);
   level++;
+  $("h1").text("Level " + level);
   userClickedPattern = [];
 }
 
